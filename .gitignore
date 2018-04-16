@@ -1,6 +1,18 @@
 # ignore log and output files
-log/
-out/
+log/*debug
+log/*info
+log/*error
+log/*log
+out/*json
+bdd/logs/*log
 
 #ignore *pyc (python compiled files)
 *.pyc
+
+
+.idea/
+.pylintrc
+others/
+roadmap/
+setup.cfg
+doc/

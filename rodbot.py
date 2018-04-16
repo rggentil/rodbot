@@ -5,7 +5,7 @@ Date: 03/27/18
 '''
 
 import argparse
-from src import api_exchange
+import lib.api_exchange as api_exchange
 import json
 import logging
 from logging.config import dictConfig
