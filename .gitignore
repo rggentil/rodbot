@@ -1,0 +1,6 @@
+# ignore log and output files
+log/
+out/
+
+#ignore *pyc (python compiled files)
+*.pyc
