@@ -1,5 +1,5 @@
 '''
-This module includes the class Pair modelize the concept of Pair for future trading. It's not used now, but probably
+This module includes the class Pair to modelize the concept of Pair for future trading. It's not used now, but probably
 we'll need it when we have to follow up pairs in different exchanges, with different orders.
 Created: rggentil
 Date: 04/12/18

@@ -5,6 +5,7 @@ log/*error
 log/*log
 out/*json
 bdd/logs/*log
+lib/unittests/log/
 
 #ignore *pyc (python compiled files)
 *.pyc
