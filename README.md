@@ -1,3 +1,7 @@
+# rodbot
+The dumbest bot for cryptotrading
+
+
 ## Purpose
 
 The purpose of "rodbot - the dumbest bot for cryptotrading" is not making money with crypto trading for buying lambos. The main purpose for "developing" this program is to **learn how to program better**. I'm not a code developer although I've been working in SW development for 9 years. But my role has been QA Engineer, this is testing what others do.
