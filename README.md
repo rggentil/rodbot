@@ -31,3 +31,41 @@ Some of the things I want to learn are:
 - some basics about trading (why not?)
 
 I hope that by the end of the year (2018!!) I can say that I learned some of them.
+
+
+
+## How to use rodbot
+Up to now rodbot only performs one task, getting the volume of the pairs of an exchange and sorting them by volume.
+The use of rodbot is very simple, just execute:
+```
+python rodbot.py -h
+
+usage: rodbot.py [-h] [-x {cobinhood,simulator}] [-c {USD,BTC,ETH}]
+                 [-i INTERVAL] [-v]
+
+Simple script/bot to manage trading in exchanges
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -x {cobinhood,simulator}, --exchange {cobinhood,simulator}
+                        Select exchange to operate with.
+  -c {USD,BTC,ETH}, --currency {USD,BTC,ETH}
+                        Select exchange to operate with.
+  -i INTERVAL, --interval INTERVAL
+                        checking interval
+  -v, --verbosity       increase output verbosity
+ ```
+ 
+ A simple example:
+ ```
+ python rodbot.py -x cobinhood -c USD -i 600
+ 
+ -trading- Top 10 pairs by volume [(u'UTNP-ETH', 105163.33164882012), (u'CMT-ETH', 90072.54242774536), (u'LYM-ETH', 88087.10082292685), (u'ETH-BTC', 71587.64046432552), (u'UTNP-BTC', 55046.710816846404), (u'COB-ETH', 43611.21613522199), (u'COB-BTC', 33014.908648198754), (u'ETH-USDT', 26002.0298957544), (u'BTC-USDT', 23265.649275408)]
+ ```
+ 
+ We'll see the result on the console and also it is logged in log/rodbot.info and the last request is stored in out/pairs_volume.json
+ 
+ The idea is from this point to start adding more "features" like get to know more things about the pairs (depht gap, tendencies, etc) and basde on this data just to post some simple limit orders.
+ 
+ NOTE: Currently this stupid bot only works with Cobinhood exchange.
+ 
