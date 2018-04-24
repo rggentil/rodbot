@@ -29,6 +29,7 @@ Some of the things I want to learn are:
 - python 3
 - learn other languages like Java or Javascript
 - some basics about trading (why not?)
+- ...
 
 I hope that by the end of the year (2018!!) I can say that I learned some of them.
 
